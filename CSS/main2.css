@@ -1,0 +1,44 @@
+h3{
+    font-family: "Anton", sans-serif;
+    color: black;
+    display:inline-block;
+    margin-left:650px;
+    margin-bottom:150px;
+    background-color:beige;
+    border-radius:20px;
+    width:500px;
+    height:50px;
+   white-space: nowrap;
+   text-align:justify;
+   justify-content:center;
+   padding-left:100px;
+   padding-top:20px;
+    }
+a{
+    padding-top:45px;
+    padding-left:100px;
+    text-decoration:none;
+    color:white;
+    font-family: "Anton", sans-serif;
+   font-size:20px;
+
+   
+}
+body{
+background-image:url("../Media/agro3.png");
+  margin:0;
+  background-size:cover;
+  
+
+
+}
+article{
+    background-color:rgb(248, 136, 92);
+    box-shadow: 5px 6px 10px skyblue;
+    margin-left:770px;
+    height:100px;
+    width:300px;
+    border-radius:10px;
+    margin-top:30px;
+    display:flex;
+}
