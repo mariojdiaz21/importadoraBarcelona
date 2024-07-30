@@ -9,6 +9,6 @@ let userInput = document.getElementById("user").value;
 let userPassword = document.getElementById("password").value;
 
 if(nameInput==verificated_name && userInput==verificated_user && userPassword==verificated_password){
-    window.location.href = "#";
+    window.location.href = "verificatedUser.html";
 }
 }

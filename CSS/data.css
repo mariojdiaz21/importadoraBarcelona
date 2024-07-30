@@ -1,0 +1,32 @@
+body{
+    background:linear-gradient(90deg, skyblue, aqua, white);
+    margin:0;
+    background-size:cover;
+    height:100%;
+   
+ 
+}
+header{
+font-family: "Anton", sans-serif;
+font-weight:bold;
+display:inline-block;
+display:flex;
+align-items:center;
+justify-content:justify;
+font-size:15px;
+margin-left:800px;
+text-shadow: 8px 5px 9px gold;
+margin-bottom:30px;
+}
+label{
+    margin-left: 825px;
+    font-family: "Anton", sans-serif;
+    color:black;
+
+
+}
+option{
+    font-family: "Anton", sans-serif;
+    color:black;
+
+}
