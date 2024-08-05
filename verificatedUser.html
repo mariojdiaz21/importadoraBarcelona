@@ -5,18 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valid Credentials</title>
     <link rel="stylesheet" href="./CSS/data.css">
+    
 </head>
 <body>
     <header>
         <h1>Solicitudes Externas</h1>
     </header>
-    <label for="#">Tipo de producto</label>
- <select name="product" id="product">
-    <option value="Sanitario">Sanitario</option>
-    <option value="Oficina">Oficina</option>
-    <option value="Alimentos">Alimentos</option>
-    <option value="Inmueble">Inmueble</option>
- </select>
+      <label for="#">Tipo de producto</label>
 
+<select name="product" id="product_selection">
+        <option value="Higiene">Sanitario</option>
+        <option value="Oficina">Oficina</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Inmueble">Inmueble</option>
+    </select>
+<br>
+<div>
+<label for="#" id="labelForOptions">Puede elegir entre estas opciones</label>
+<!--Here start de first element about de display lists-->
+    <select name="#" id="H_selection"  style="display:none;">
+        <option value="Papel Sanitario" id="display">Papel Sanitario</option>
+        <option value="" id="display">Jabón de manos</option>
+        <option value="" id="display">Alcohol líquido</option>
+    </select>
+  <!--Add value atribbutte to all the options tags-->
+        <select name="" id="O_selection" >
+            <option value="" id="display">Papel de varios tamaños</option>
+            <option value="" id="display">Lápiceros y lápices</option>
+            <option value="" id="display">Tinta de impresora</option>
+            <option value="" id="display">Unidades de alamacenamiento externo</option>
+        </select>
+        
+            <select name="" id="A_selection" style="display:none;">
+                <option value="" id="display">Café</option>
+                <option value="" id="display">Azúcar</option>
+                <option value="" id="display">Servilletas</option>
+            </select>
+     
+                <select name="" id="I_selection" style="display:none;">
+                    <option value="" id="display">Escritorio</option>
+                    <option value="" id="display">Monitor</option>
+                    <option value="" id="display">Silla de oficina</option>
+                    <option value="" id="display">Ventilador</option>
+                </select>
+            </div>
+            <!--Div for the form-->
 </body>
 </html>

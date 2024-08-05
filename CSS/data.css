@@ -7,21 +7,22 @@ body{
  
 }
 header{
-font-family: "Anton", sans-serif;
-font-weight:bold;
-display:inline-block;
-display:flex;
-align-items:center;
-justify-content:justify;
-font-size:15px;
-margin-left:800px;
-text-shadow: 8px 5px 9px gold;
-margin-bottom:30px;
+    font-family: "Anton", sans-serif;
+    font-weight:bold;
+    display:inline-block;
+    display:flex;
+    align-items:center;
+    justify-content:justify;
+    font-size:15px;
+    margin-left:800px;
+    text-shadow: 8px 5px 9px gold;
+    margin-bottom:30px;
 }
 label{
     margin-left: 825px;
     font-family: "Anton", sans-serif;
     color:black;
+    
 
 
 }
@@ -30,3 +31,31 @@ option{
     color:black;
 
 }
+
+#H_selection{
+    margin-left:25px;
+    margin-top:40px;
+    font-family: "Anton", sans-serif;
+   }
+#O_selection{
+    margin-left: 25px;
+    margin-top:40px;
+    font-family: "Anton", sans-serif;
+   
+    
+}
+#display{
+    display:flex;
+   
+    color:black;
+    font-weight:bold;
+    font-family: "Anton", sans-serif;
+}
+#labelForOptions{
+   white-space:nowrap;
+   margin-left:636px;
+   margin-top:40px;
+   font-weight:bolder;
+
+}
+/*Repair, you can choose form this options*/
